@@ -1,4 +1,4 @@
-CREATE PROCEDURE AddNewBorrower
+CREATE PROCEDURE sp_AddNewBorrower
     @FirstName NVARCHAR(50),
     @LastName NVARCHAR(50),
     @Email NVARCHAR(255),
